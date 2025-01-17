@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+dbt-bigquery = "*"
+pytrends = "*"
+sqlalchemy = "*"
+typing-extensions = "*"
+psycopg2-binary = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"

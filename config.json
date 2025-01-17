@@ -1,0 +1,8 @@
+{
+"db_user" : "postgres",
+"db_pass" : "tim&MOBY2025",
+"db_host" : "35.225.174.200",
+"db_port" : "5432",
+"db_name" : "postgres"
+
+}
