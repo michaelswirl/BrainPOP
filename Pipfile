@@ -11,6 +11,8 @@ pytrends = "*"
 sqlalchemy = "*"
 typing-extensions = "*"
 psycopg2-binary = "*"
+seaborn = "*"
+matplotlib = "*"
 
 [dev-packages]
 ipykernel = "*"

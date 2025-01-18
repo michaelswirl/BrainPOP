@@ -28,5 +28,5 @@ new_data_to_insert AS (
 
 -- Insert only the new records into the target table
 INSERT INTO brainpop.student_activities
-SELECT id, student_id, account_id, resource_type, score, quiz_id, CURRENT_TIMESTAMP
+SELECT id, student_id, account_id, resource_type, score, quiz_id, ETL_LAST_UPDATED_TS
 FROM new_data_to_insert;
